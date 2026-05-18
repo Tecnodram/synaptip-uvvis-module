@@ -1,0 +1,359 @@
+=====================================================================
+SYNAPTIP SCIENTIFIC INTEROPERABILITY PLATFORM — UV-VIS MODULE
+MASTER PLAN V1.0
+Author: Daniel Ramírez Martínez
+Organization: SynAptIp Technologies
+Project Type: Scientific Interoperability & Laboratory Automation
+=====================================================================
+
+PROJECT OVERVIEW
+---------------------------------------------------------------------
+This project focuses on the development of a low-cost scientific
+interoperability adaptation system for a Thermo Scientific Genesis
+10s UV-VIS spectrophotometer using circular reagent vials/cuvettes
+instead of the original square cuvette carousel system.
+
+The objective is to design, prototype, validate, and document a
+parametric carousel adaptation system using OpenSCAD, AI-assisted
+engineering workflows, Git-based traceability, and reproducible
+scientific documentation practices.
+
+The project will be developed under the SynAptIp Technologies
+ecosystem as part of a broader initiative related to scientific
+automation, interoperability engineering, laboratory workflow
+optimization, and AI-assisted technical development.
+
+---------------------------------------------------------------------
+
+PRIMARY OBJECTIVES
+---------------------------------------------------------------------
+
+1. Develop a functional circular carousel adapter for UV-VIS analysis.
+
+2. Maintain proper optical alignment and repeatability for
+   absorbance measurements.
+
+3. Reduce laboratory operational costs through rapid prototyping
+   and interoperable scientific tooling.
+
+4. Enable safer handling of hazardous heavy-metal reagent samples by
+   minimizing repeated vial opening.
+
+5. Build a fully documented engineering workflow demonstrating:
+   - scientific automation
+   - interoperability engineering
+   - AI-assisted CAD development
+   - reproducible engineering practices
+   - Git/GitHub traceability
+   - parametric modeling workflows
+
+6. Position the project as part of SynAptIp Technologies'
+   scientific interoperability portfolio.
+
+---------------------------------------------------------------------
+
+SCIENTIFIC AND TECHNICAL CONTEXT
+---------------------------------------------------------------------
+
+The original spectrophotometer carousel is designed for square
+cuvettes. This project aims to adapt the system for circular reagent
+vials used in environmental and chemical analysis workflows.
+
+The adaptation must preserve:
+- optical beam alignment
+- positional repeatability
+- rotational indexing
+- structural stability
+- safe laboratory handling
+
+The project will prioritize:
+- interoperability
+- low-cost prototyping
+- modularity
+- reproducibility
+- auditability
+
+---------------------------------------------------------------------
+
+CORE ENGINEERING PRINCIPLES
+---------------------------------------------------------------------
+
+1. Parametric Design
+   All geometry must be generated using OpenSCAD parametric logic.
+
+2. Reproducibility
+   Every version, measurement, prompt, and exported model must be
+   traceable and reproducible.
+
+3. Scientific Integrity
+   Engineering decisions must be documented and validated.
+
+4. AI-Assisted Development Transparency
+   AI-generated assistance must remain supervised and curated by the
+   project author.
+
+5. Modular Architecture
+   The project should remain extensible for future modules or
+   instrument compatibility layers.
+
+6. Safety-First Documentation
+   No sensitive institutional, personal, or regulated information
+   should ever be uploaded publicly.
+
+---------------------------------------------------------------------
+
+19-POINT MASTER DEVELOPMENT PLAN
+---------------------------------------------------------------------
+
+[1] Geometry Reconstruction
+- Analyze photographs and physical dimensions.
+- Reconstruct carousel geometry and indexing system.
+- Identify critical tolerances.
+
+[2] Optical Alignment Analysis
+- Determine beam-path position.
+- Validate cuvette opening alignment.
+- Reduce optical distortion risks.
+
+[3] Rotational Indexing Analysis
+- Study indexing slots and home-position markers.
+- Identify repeatability mechanisms.
+
+[4] Mechanical Base Reconstruction
+- Rebuild concentric ring structure.
+- Define central mounting geometry.
+
+[5] Parametric OpenSCAD Architecture
+- Create reusable modular OpenSCAD files.
+- Use editable parameters for all dimensions.
+
+[6] Circular Cuvette Holder Development
+- Design cylindrical vial holders.
+- Maintain optical access windows.
+
+[7] Tolerance Optimization
+- Validate fitment tolerances.
+- Adjust insertion and rotational clearances.
+
+[8] Material Selection Validation
+- Compare PETG, ABS, and alternative materials.
+- Minimize optical reflection and warping.
+
+[9] Prototype Manufacturing
+- Produce iterative 3D-printed prototypes.
+- Record all fabrication settings.
+
+[10] Spectrophotometer Compatibility Testing
+- Validate insertion and operation.
+- Prevent collisions or misalignment.
+
+[11] Optical Measurement Validation
+- Compare absorbance consistency.
+- Evaluate reproducibility and noise.
+
+[12] Hazard and Safety Review
+- Document safe handling procedures.
+- Address contamination and chemical exposure.
+
+[13] Legal and Ethical Review
+- Avoid manufacturer affiliation claims.
+- Maintain interoperability-focused positioning.
+- Avoid unauthorized branding usage.
+
+[14] AI Prompt Traceability System
+- Save prompts used for engineering assistance.
+- Maintain chronological development logs.
+
+[15] Git and Version Control Workflow
+- Use structured commits and version tags.
+- Preserve design evolution history.
+
+[16] GitHub Documentation Strategy
+- Prepare public-safe documentation.
+- Separate sensitive/internal files.
+
+[17] Scientific Portfolio Positioning
+- Build professional technical narratives.
+- Prepare LinkedIn and portfolio material.
+
+[18] Future Commercialization Evaluation
+- Explore interoperability consulting models.
+- Evaluate licensing and prototyping services.
+
+[19] Expansion Strategy
+- Enable future compatibility with additional
+  scientific instruments and workflows.
+
+---------------------------------------------------------------------
+
+REPOSITORY SECURITY AND SAFETY POLICY
+---------------------------------------------------------------------
+
+The repository must NEVER include:
+
+- personal identification documents
+- institutional confidential information
+- laboratory restricted data
+- passwords or API keys
+- private financial information
+- confidential supplier pricing
+- internal UNAM information not authorized for publication
+- regulated laboratory procedures
+- manufacturer proprietary files
+- serial numbers of sensitive equipment
+- unpublished institutional research data
+- unsafe chemical handling instructions
+
+---------------------------------------------------------------------
+
+PUBLIC REPOSITORY GUIDELINES
+---------------------------------------------------------------------
+
+Allowed in public repositories:
+- OpenSCAD source files
+- STL exports
+- generalized engineering documentation
+- educational interoperability descriptions
+- photographs without sensitive data
+- validation summaries
+- non-confidential workflows
+- AI-assisted engineering methodology
+- portfolio-oriented documentation
+
+Not allowed:
+- sensitive institutional documentation
+- confidential research
+- unauthorized branding usage
+- misleading compatibility claims
+- claims of manufacturer endorsement
+
+---------------------------------------------------------------------
+
+LEGAL POSITIONING
+---------------------------------------------------------------------
+
+Recommended disclaimer:
+
+"SynAptIp Scientific Interoperability Platform is an independent
+engineering and interoperability initiative. This project is not
+affiliated with, endorsed by, or sponsored by Thermo Scientific,
+Hanna Instruments, or any equipment manufacturer. Compatibility is
+based on interoperability-focused engineering and standard laboratory
+adaptation principles."
+
+---------------------------------------------------------------------
+
+INITIAL TECHNICAL STACK
+---------------------------------------------------------------------
+
+Primary Tools:
+- OpenSCAD
+- Visual Studio Code
+- Git
+- GitHub
+- Codex / AI-assisted engineering workflows
+
+Recommended Future Tools:
+- FreeCAD
+- Fusion 360 (optional)
+- Python validation scripts
+- Jupyter notebooks
+- Scientific plotting libraries
+
+---------------------------------------------------------------------
+
+RECOMMENDED PROJECT STRUCTURE
+---------------------------------------------------------------------
+
+SynAptIp-UVVIS-Module/
+│
+├── docs/
+├── openscad/
+├── stl/
+├── measurements/
+├── prompts/
+├── validation/
+├── prototypes/
+├── reports/
+├── photos/
+├── references/
+├── legal/
+├── ethics/
+├── github/
+├── exports/
+└── README.md
+
+---------------------------------------------------------------------
+
+INITIAL DEVELOPMENT PHASES
+---------------------------------------------------------------------
+
+PHASE 0 — Research & Traceability
+- Organize references
+- Store measurements
+- Create repository structure
+- Define engineering workflow
+
+PHASE 1 — Reverse Engineering
+- Extract geometry
+- Identify indexing system
+- Reconstruct dimensions
+
+PHASE 2 — Parametric CAD Development
+- Build OpenSCAD architecture
+- Generate initial carousel model
+
+PHASE 3 — Rapid Prototyping
+- Print prototypes
+- Evaluate tolerances and assembly
+
+PHASE 4 — Optical Validation
+- Validate beam alignment
+- Compare absorbance reproducibility
+
+PHASE 5 — Documentation & Positioning
+- Prepare GitHub repository
+- Build technical portfolio
+- Generate professional communication assets
+
+---------------------------------------------------------------------
+
+AUTHORSHIP AND TRACEABILITY
+---------------------------------------------------------------------
+
+The project author retains responsibility for:
+- engineering supervision
+- validation
+- scientific decisions
+- final geometry approval
+- documentation review
+- interoperability strategy
+
+AI-assisted outputs must be:
+- reviewed
+- validated
+- curated
+- versioned
+- documented
+
+---------------------------------------------------------------------
+
+LONG-TERM VISION
+---------------------------------------------------------------------
+
+This project serves as the foundation for a broader scientific
+interoperability and laboratory automation ecosystem under
+SynAptIp Technologies.
+
+Potential future directions include:
+- additional spectrophotometer modules
+- automated sample workflows
+- laboratory interoperability systems
+- AI-assisted scientific instrumentation
+- data acquisition pipelines
+- smart laboratory tooling
+- scientific workflow orchestration
+
+=====================================================================
+END OF MASTER PLAN V1.0
+=====================================================================

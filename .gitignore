@@ -1,0 +1,29 @@
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Generated CAD / export outputs
+exports/*
+!exports/.gitkeep
+stl/*
+!stl/.gitkeep
+
+# Local scratch / temporary files
+*.tmp
+*.bak
+*.swp
+
+# Sensitive local-only staging areas
+private/
+internal/
+restricted/
+
+# Local source materials pending publication review
+Documents/
+Photos/
+*.docx
+*.jpg
+*.png
+*.raw

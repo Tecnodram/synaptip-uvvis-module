@@ -1,0 +1,3 @@
+measurement_id,date_iso,operator,feature_id,feature_description,measurement_method,units,raw_value,repeat_count,confidence_level,source_reference,notes
+MEAS-0001,,,,,,,,,,,
+
