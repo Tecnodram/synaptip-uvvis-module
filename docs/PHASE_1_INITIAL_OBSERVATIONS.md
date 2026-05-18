@@ -37,3 +37,9 @@ The source notes describe one wider opening among a sequence of narrower opening
 3. Log revised values in `measurements/measurement_log_template.csv` or a future measured dataset.
 4. Update the OpenSCAD starter parameters only after review.
 
+## Early interpretation from private photo review
+
+- The base appears to use concentric circular regions rather than a single flat disk.
+- Radial support ribs are visible and should be modeled independently from the circular walls.
+- Repeating narrow slots plus one wider slot remain plausible indexing-related features, but their function is not yet confirmed.
+- Side openings suggest that vertical geometry and beam-clearance constraints may need to be modeled separately from the top-view footprint.
