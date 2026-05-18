@@ -14,16 +14,24 @@ show_reference_axis = true;
 
 // ---------- Placeholder parameters ----------
 // These values are intentionally non-validated starter values.
-outer_diameter_mm = 120;
+disc_diameter_mm = 108;
+disc_radius_mm = disc_diameter_mm / 2;
+outer_diameter_mm = disc_diameter_mm;
 inner_clearance_diameter_mm = 40;
 base_thickness_mm = 4;
-holder_count = 8;
-holder_pitch_diameter_mm = 88;
+holder_count = 6;
+vial_outer_diameter_mm = 16;
+vial_radius_mm = vial_outer_diameter_mm / 2;
+provisional_outer_margin_mm = 2;
+holder_pitch_radius_mm = disc_radius_mm - vial_radius_mm - provisional_outer_margin_mm;
+holder_pitch_diameter_mm = holder_pitch_radius_mm * 2;
 holder_outer_diameter_mm = 18;
 holder_wall_thickness_mm = 2;
-holder_height_mm = 22;
-optical_window_width_mm = 8;
-optical_window_height_mm = 12;
+vial_height_mm = 50;
+holder_height_mm = vial_height_mm;
+optical_window_width_mm = 7;
+optical_window_height_mm = 13;
+optical_window_base_offset_mm = 13;
 
 // Reverse-engineering placeholders from early observations
 // Replace only after measurement review.
@@ -81,7 +89,7 @@ module vial_holder() {
         translate([
             -optical_window_width_mm / 2,
             -holder_outer_diameter_mm,
-            (holder_height_mm - optical_window_height_mm) / 2
+            optical_window_base_offset_mm
         ])
             cube([
                 optical_window_width_mm,
@@ -94,7 +102,7 @@ module vial_holder() {
 module circular_holder_pattern() {
     for (i = [0 : holder_count - 1]) {
         rotate([0, 0, i * 360 / holder_count])
-            translate([holder_pitch_diameter_mm / 2, 0, base_thickness_mm])
+            translate([holder_pitch_radius_mm, 0, base_thickness_mm])
                 vial_holder();
     }
 }

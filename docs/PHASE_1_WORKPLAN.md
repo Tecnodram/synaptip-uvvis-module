@@ -33,6 +33,7 @@ Extract the minimum reliable geometry needed to reconstruct the existing carouse
 - confirm target vial diameter
 - confirm required holder height
 - confirm optical-window elevation and opening envelope
+- derive a provisional six-position radial layout from the confirmed sketch intent
 
 ### WP5 — Parametric model update
 
@@ -45,5 +46,5 @@ Extract the minimum reliable geometry needed to reconstruct the existing carouse
 - geometry extraction matrix completed
 - unresolved dimensions listed
 - starter OpenSCAD file refactored around explicit modules and provisional parameters
+- first six-position geometry proposal recorded with assumptions and coordinates
 - no private photos or raw measurements published
-

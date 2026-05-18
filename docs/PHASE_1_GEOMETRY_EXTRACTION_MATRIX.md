@@ -15,6 +15,7 @@ This matrix converts private-source observations into a public-safe engineering 
 | GEO-007 | Side windows in vertical walls | private photo review | optical or access openings in existing structure | medium | determine whether these must be inherited by adapter geometry |
 | GEO-008 | Circular vial holder envelope | private notes | target geometry for adapted sample holders | low-medium | confirm vial diameter and vertical optical window position |
 | GEO-009 | Oval optical window | private notes | beam-clearance feature for circular vial holder concept | low-medium | verify dimensions and beam-path relation |
+| GEO-010 | Six-position proposed layout | author-confirmed sketch review | proposed design geometry with opposite pairs `1–4`, `2–5`, `3–B` | medium | verify radial placement against assembly clearance |
 
 ## Interpretation rules
 
@@ -28,4 +29,4 @@ This matrix converts private-source observations into a public-safe engineering 
 2. measure concentric ring diameters and heights
 3. verify slot count and wider-slot position
 4. determine whether optical windows are inherited constraints or only legacy geometry
-
+5. verify whether provisional 44 mm vial-center radius is mechanically acceptable
