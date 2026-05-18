@@ -87,7 +87,12 @@ All design work in this repository should remain:
 - `docs/PHOTO_REVIEW_LOG_TEMPLATE.csv`
 - `legal/SAFETY_AND_LEGAL_DISCLAIMER.md`
 - `ethics/PUBLICATION_ETHICS.md`
-- `openscad/uvvis_carousel_adapter_starter.scad`
+- `openscad/uvvis_carousel_adapter_v0_1_initial_starter.scad`
+- `openscad/uvvis_carousel_adapter_v0_2_reverse_engineering_reference.scad`
+- `openscad/uvvis_carousel_adapter_v0_3_six_position_layout.scad`
+- `openscad/uvvis_carousel_adapter_v0_4_measured_refinement.scad`
+- `openscad/uvvis_carousel_mechanism_test_v0_1.scad`
+- `docs/CAD_VERSIONING_POLICY.md`
 
 ## Status
 

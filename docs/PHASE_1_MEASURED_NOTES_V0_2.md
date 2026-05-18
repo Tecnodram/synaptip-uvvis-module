@@ -47,3 +47,10 @@ The earlier starter geometry used placeholder holder dimensions that were not ye
 - any added clearance must be treated as a **future test variable**, not as a validated tolerance
 
 This keeps vial insertion/removal under explicit engineering review rather than hiding it inside an arbitrary assumed tolerance.
+
+## CAD lineage note
+
+Following author instruction, prior OpenSCAD states are now preserved as separate versioned files rather than being overwritten in place. This revision corresponds to:
+
+- `uvvis_carousel_adapter_v0_4_measured_refinement.scad`
+- `uvvis_carousel_mechanism_test_v0_1.scad`

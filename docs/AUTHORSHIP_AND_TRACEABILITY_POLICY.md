@@ -16,6 +16,7 @@ The project must preserve:
 - OpenSCAD parametric logic evolution
 - validation logs
 - engineering rationale
+- explicit CAD file version lineage
 
 ## AI-assisted outputs
 
@@ -39,4 +40,4 @@ Where practical, future work items should link:
 - design decisions
 - changed files
 - commit hashes
-
+- prior and successor CAD version identifiers
