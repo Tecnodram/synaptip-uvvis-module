@@ -54,3 +54,7 @@ Following author instruction, prior OpenSCAD states are now preserved as separat
 
 - `uvvis_carousel_adapter_v0_4_measured_refinement.scad`
 - `uvvis_carousel_mechanism_test_v0_1.scad`
+
+The next design branch adds an internal seating recess in:
+
+- `uvvis_carousel_adapter_v0_5_seating_recess.scad`

@@ -8,6 +8,7 @@ This directory preserves design evolution as explicit versions.
 - `uvvis_carousel_adapter_v0_2_reverse_engineering_reference.scad`
 - `uvvis_carousel_adapter_v0_3_six_position_layout.scad`
 - `uvvis_carousel_adapter_v0_4_measured_refinement.scad`
+- `uvvis_carousel_adapter_v0_5_seating_recess.scad`
 
 ## Prototype branch
 
