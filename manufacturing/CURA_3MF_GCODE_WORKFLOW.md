@@ -68,7 +68,7 @@ If Cura refuses to import it because of printer-version mismatch, create a new p
 4. Slice.
 5. Save G-code locally:
 
-`exports/uvvis_carousel_adapter_v0_7_clearance_wall_label_fix.gcode`
+`exports/gcode/uvvis_carousel_adapter_v0_7_<printer>_<material>_<date>.gcode`
 
 ## Important
 
@@ -87,4 +87,3 @@ Do not treat the generated G-code as universally valid. G-code is printer-specif
 Record results in:
 
 `manufacturing/print_test_record_template.csv`
-
