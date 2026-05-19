@@ -27,3 +27,9 @@ Photos/
 *.jpg
 *.png
 *.raw
+
+# Generated manufacturing outputs are local until reviewed
+*.stl
+*.3mf
+*.gcode
+*.ufp

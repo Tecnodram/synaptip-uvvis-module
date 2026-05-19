@@ -1,0 +1,8 @@
+test_id,date_iso,cad_file,stl_file,profile_file,printer,material,nozzle_mm,layer_height_mm,position,bore_diameter_mm,fit_result,removal_result,too_loose,central_screw_result,mechanism_result,notes
+PRINT-0001,,,,,,,,,1,16.2,,,,,,
+PRINT-0001,,,,,,,,,4,16.2,,,,,,
+PRINT-0001,,,,,,,,,2,16.4,,,,,,
+PRINT-0001,,,,,,,,,5,16.4,,,,,,
+PRINT-0001,,,,,,,,,B,16.6,,,,,,
+PRINT-0001,,,,,,,,,3,16.8,,,,,,
+

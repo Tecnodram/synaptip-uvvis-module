@@ -12,6 +12,17 @@ This directory preserves design evolution as explicit versions.
 - `uvvis_carousel_adapter_v0_6_vial_clearance_test.scad`
 - `uvvis_carousel_adapter_v0_7_clearance_wall_label_fix.scad`
 
+## Current print-test candidate
+
+Use `uvvis_carousel_adapter_v0_7_clearance_wall_label_fix.scad` for the next clearance-test print.
+
+For preview/export, hide ghost vials:
+
+```scad
+show_ghost_vials = false;
+show_reference_axis = false;
+```
+
 ## Prototype branch
 
 - `uvvis_carousel_mechanism_test_v0_1.scad`
