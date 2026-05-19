@@ -6,7 +6,7 @@
 
 Use:
 
-`openscad/uvvis_carousel_adapter_v0_7_clearance_wall_label_fix.scad`
+`openscad/uvvis_carousel_adapter_v0_8_export_ready.scad`
 
 ## Step 1 — Export STL from OpenSCAD
 
@@ -34,7 +34,7 @@ Use:
 
 Suggested local output path:
 
-`exports/uvvis_carousel_adapter_v0_7_clearance_wall_label_fix.stl`
+`exports/uvvis_carousel_adapter_v0_8_export_ready.stl`
 
 ## Step 2 — Create 3MF project in Cura
 
@@ -48,7 +48,7 @@ Suggested local output path:
 
 Suggested local output path:
 
-`exports/uvvis_carousel_adapter_v0_7_clearance_wall_label_fix.3mf`
+`exports/uvvis_carousel_adapter_v0_8_export_ready.3mf`
 
 ## Step 3 — Apply or create Cura profile
 
@@ -68,7 +68,7 @@ If Cura refuses to import it because of printer-version mismatch, create a new p
 4. Slice.
 5. Save G-code locally:
 
-`exports/gcode/uvvis_carousel_adapter_v0_7_<printer>_<material>_<date>.gcode`
+`exports/gcode/uvvis_carousel_adapter_v0_8_<printer>_<material>_<date>.gcode`
 
 ## Important
 
