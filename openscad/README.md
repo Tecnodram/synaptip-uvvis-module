@@ -10,6 +10,7 @@ This directory preserves design evolution as explicit versions.
 - `uvvis_carousel_adapter_v0_4_measured_refinement.scad`
 - `uvvis_carousel_adapter_v0_5_seating_recess.scad`
 - `uvvis_carousel_adapter_v0_6_vial_clearance_test.scad`
+- `uvvis_carousel_adapter_v0_7_clearance_wall_label_fix.scad`
 
 ## Prototype branch
 
