@@ -7,6 +7,8 @@ desktop.ini
 # Generated CAD / export outputs
 exports/*
 !exports/.gitkeep
+!exports/gcode/
+!exports/gcode/README.md
 stl/*
 !stl/.gitkeep
 
