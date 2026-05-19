@@ -60,6 +60,10 @@ If Cura refuses to import it because of printer-version mismatch, create a new p
 
 `manufacturing/cura_profiles/README.md`
 
+If you export the actual profile used for a print test, save it locally in:
+
+`exports/print_profiles/`
+
 ## Step 4 — Slice and export G-code
 
 1. In Cura, inspect layer preview.

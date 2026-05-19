@@ -9,6 +9,8 @@ exports/*
 !exports/.gitkeep
 !exports/gcode/
 !exports/gcode/README.md
+!exports/print_profiles/
+!exports/print_profiles/README.md
 stl/*
 !stl/.gitkeep
 
