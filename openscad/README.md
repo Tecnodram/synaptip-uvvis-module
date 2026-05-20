@@ -35,6 +35,7 @@ show_reference_axis = false;
 - `indexing_base_v0_3_print_ready.scad`
 - `indexing_base_v0_4_post_print_fit_adjustment.scad`
 - `assembly_validation_v0_1.scad`
+- `assembly_validation_v0_2_conical_tabs.scad`
 
 `indexing_base.scad` is the requested standalone module filename. `indexing_base_v0_1.scad` preserves the first versioned snapshot of that module.
 
@@ -45,6 +46,8 @@ Use `indexing_base_v0_3_print_ready.scad` for the lower-indexing-base print test
 Use `indexing_base_v0_4_post_print_fit_adjustment.scad` for the next post-print fit correction review.
 
 Use `assembly_validation_v0_1.scad` to visually inspect overlap between the upper carousel proxy, lower indexing base, lower seating cylinder, and upper screw.
+
+Use `assembly_validation_v0_2_conical_tabs.scad` to inspect the updated conical lower cylinder and 2 mm positioning tabs aligned with pair `1-4`.
 
 ## Active workflow
 
