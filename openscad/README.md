@@ -17,6 +17,8 @@ This directory preserves design evolution as explicit versions.
 
 Use `uvvis_carousel_adapter_v0_8_export_ready.scad` for STL export and the next clearance-test print.
 
+Use `indexing_base.scad` for the standalone lower indexing-base V0 test print.
+
 For preview/export, hide ghost vials:
 
 ```scad
@@ -27,6 +29,10 @@ show_reference_axis = false;
 ## Prototype branch
 
 - `uvvis_carousel_mechanism_test_v0_1.scad`
+- `indexing_base.scad`
+- `indexing_base_v0_1.scad`
+
+`indexing_base.scad` is the requested standalone module filename. `indexing_base_v0_1.scad` preserves the first versioned snapshot of that module.
 
 ## Active workflow
 
