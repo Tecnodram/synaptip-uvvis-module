@@ -32,10 +32,13 @@ show_reference_axis = false;
 - `indexing_base.scad`
 - `indexing_base_v0_1.scad`
 - `indexing_base_v0_2_slot_lamina_labels.scad`
+- `indexing_base_v0_3_print_ready.scad`
 
 `indexing_base.scad` is the requested standalone module filename. `indexing_base_v0_1.scad` preserves the first versioned snapshot of that module.
 
 Use `indexing_base_v0_2_slot_lamina_labels.scad` for the next lower-indexing-base review.
+
+Use `indexing_base_v0_3_print_ready.scad` for the lower-indexing-base print test.
 
 ## Active workflow
 
