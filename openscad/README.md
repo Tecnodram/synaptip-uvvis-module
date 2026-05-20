@@ -31,8 +31,11 @@ show_reference_axis = false;
 - `uvvis_carousel_mechanism_test_v0_1.scad`
 - `indexing_base.scad`
 - `indexing_base_v0_1.scad`
+- `indexing_base_v0_2_slot_lamina_labels.scad`
 
 `indexing_base.scad` is the requested standalone module filename. `indexing_base_v0_1.scad` preserves the first versioned snapshot of that module.
+
+Use `indexing_base_v0_2_slot_lamina_labels.scad` for the next lower-indexing-base review.
 
 ## Active workflow
 
