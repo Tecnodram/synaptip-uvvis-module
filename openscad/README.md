@@ -43,6 +43,7 @@ show_reference_axis = false;
 - `integrated_carousel_tester_v0_5_refined_radial_rings.scad`
 - `integrated_carousel_tester_v0_6_center_top_projection.scad`
 - `integrated_carousel_tester_v0_7_center_ring_reference.scad`
+- `integrated_carousel_tester_v0_8_print_ready.scad`
 
 `indexing_base.scad` is the requested standalone module filename. `indexing_base_v0_1.scad` preserves the first versioned snapshot of that module.
 
@@ -69,6 +70,8 @@ Use `integrated_carousel_tester_v0_5_refined_radial_rings.scad` to review the fu
 Use `integrated_carousel_tester_v0_6_center_top_projection.scad` to review the fused tester with the central conical receiver/coupling referenced to the upper vial-base plane: 7.24 mm above that plane and 11.67 mm below it.
 
 Use `integrated_carousel_tester_v0_7_center_ring_reference.scad` to review the same central conical opening with the center/index lamina ring height explicitly defined as a mechanical reference plane and optional visual reference planes for audit.
+
+Use `integrated_carousel_tester_v0_8_print_ready.scad` as the current exploratory print-ready tester export file. Visual helpers are disabled, fit tolerances are documented, and the model remains marked as unvalidated prototype geometry.
 
 ## Active workflow
 
