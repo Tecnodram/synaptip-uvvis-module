@@ -40,6 +40,7 @@ show_reference_axis = false;
 - `integrated_carousel_tester_v0_2_visible_indexing_rings.scad`
 - `integrated_carousel_tester_v0_3_open_indexing_base.scad`
 - `integrated_carousel_tester_v0_4_extended_center_coupling.scad`
+- `integrated_carousel_tester_v0_5_refined_radial_rings.scad`
 
 `indexing_base.scad` is the requested standalone module filename. `indexing_base_v0_1.scad` preserves the first versioned snapshot of that module.
 
@@ -60,6 +61,8 @@ Use `integrated_carousel_tester_v0_2_visible_indexing_rings.scad` to review the 
 Use `integrated_carousel_tester_v0_3_open_indexing_base.scad` to review the fused tester with the lower indexing base open between rings, matching the intended indexing logic from `indexing_base_v0_3_print_ready.scad`.
 
 Use `integrated_carousel_tester_v0_4_extended_center_coupling.scad` to review the fused tester with 108.10 mm integrated outer diameter, open lower indexing base, and extended central conical coupling projection.
+
+Use `integrated_carousel_tester_v0_5_refined_radial_rings.scad` to review the fused tester with lower indexing-ring positions reconstructed from post-integration radial caliper measurements rather than proportional scaling.
 
 ## Active workflow
 
