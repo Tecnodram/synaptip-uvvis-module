@@ -44,6 +44,7 @@ show_reference_axis = false;
 - `integrated_carousel_tester_v0_6_center_top_projection.scad`
 - `integrated_carousel_tester_v0_7_center_ring_reference.scad`
 - `integrated_carousel_tester_v0_8_print_ready.scad`
+- `integrated_carousel_tester_v0_9_stepped_ring_center_fix.scad`
 
 `indexing_base.scad` is the requested standalone module filename. `indexing_base_v0_1.scad` preserves the first versioned snapshot of that module.
 
@@ -72,6 +73,8 @@ Use `integrated_carousel_tester_v0_6_center_top_projection.scad` to review the f
 Use `integrated_carousel_tester_v0_7_center_ring_reference.scad` to review the same central conical opening with the center/index lamina ring height explicitly defined as a mechanical reference plane and optional visual reference planes for audit.
 
 Use `integrated_carousel_tester_v0_8_print_ready.scad` as the current exploratory print-ready tester export file. Visual helpers are disabled, fit tolerances are documented, and the model remains marked as unvalidated prototype geometry.
+
+Use `integrated_carousel_tester_v0_9_stepped_ring_center_fix.scad` to review the corrected architecture after v0.8 print observations: lower ring height differences are preserved by replacing the full low cap with local support pads/spokes, and the visible central boss emerges from the center/index ring height.
 
 ## Active workflow
 
