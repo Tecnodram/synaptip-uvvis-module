@@ -38,6 +38,7 @@ show_reference_axis = false;
 - `assembly_validation_v0_2_conical_tabs.scad`
 - `integrated_carousel_tester_v0_1_preliminary.scad`
 - `integrated_carousel_tester_v0_2_visible_indexing_rings.scad`
+- `integrated_carousel_tester_v0_3_open_indexing_base.scad`
 
 `indexing_base.scad` is the requested standalone module filename. `indexing_base_v0_1.scad` preserves the first versioned snapshot of that module.
 
@@ -54,6 +55,8 @@ Use `assembly_validation_v0_2_conical_tabs.scad` to inspect the updated conical 
 Use `integrated_carousel_tester_v0_1_preliminary.scad` to review the first fused upper/lower carousel tester before print.
 
 Use `integrated_carousel_tester_v0_2_visible_indexing_rings.scad` to review the fused tester with the lower concentric indexing rings exposed instead of absorbed into a full-height platform body.
+
+Use `integrated_carousel_tester_v0_3_open_indexing_base.scad` to review the fused tester with the lower indexing base open between rings, matching the intended indexing logic from `indexing_base_v0_3_print_ready.scad`.
 
 ## Active workflow
 
