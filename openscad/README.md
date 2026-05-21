@@ -45,6 +45,7 @@ show_reference_axis = false;
 - `integrated_carousel_tester_v0_7_center_ring_reference.scad`
 - `integrated_carousel_tester_v0_8_print_ready.scad`
 - `integrated_carousel_tester_v0_9_stepped_ring_center_fix.scad`
+- `integrated_carousel_tester_v0_10_self_supported_center.scad`
 
 `indexing_base.scad` is the requested standalone module filename. `indexing_base_v0_1.scad` preserves the first versioned snapshot of that module.
 
@@ -75,6 +76,8 @@ Use `integrated_carousel_tester_v0_7_center_ring_reference.scad` to review the s
 Use `integrated_carousel_tester_v0_8_print_ready.scad` as the current exploratory print-ready tester export file. Visual helpers are disabled, fit tolerances are documented, and the model remains marked as unvalidated prototype geometry.
 
 Use `integrated_carousel_tester_v0_9_stepped_ring_center_fix.scad` to review the corrected architecture after v0.8 print observations: lower ring height differences are preserved by replacing the full low cap with local support pads/spokes, and the visible central boss emerges from the center/index ring height.
+
+Use `integrated_carousel_tester_v0_10_self_supported_center.scad` to review/print the corrected self-supported central boss variant after the v0.8 print abort: a central collar runs from the base/build region to the center/index ring height so the boss no longer starts as an unsupported late feature.
 
 ## Active workflow
 
