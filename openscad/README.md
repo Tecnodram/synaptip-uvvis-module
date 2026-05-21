@@ -47,6 +47,7 @@ show_reference_axis = false;
 - `integrated_carousel_tester_v0_8_1_ring_height_reference_fix.scad`
 - `integrated_carousel_tester_v0_8_2_open_base_integration.scad`
 - `integrated_carousel_tester_v0_8_3_vial_base_zero_reference.scad`
+- `integrated_carousel_tester_v0_8_4_vial_base_floor.scad`
 - `integrated_carousel_tester_v0_9_stepped_ring_center_fix.scad`
 - `integrated_carousel_tester_v0_10_self_supported_center.scad`
 
@@ -83,6 +84,8 @@ Use `integrated_carousel_tester_v0_8_1_ring_height_reference_fix.scad` as the ac
 Use `integrated_carousel_tester_v0_8_2_open_base_integration.scad` as the active continuation when the vial-base integration needs local pads instead of a full upper cap. It keeps the lower indexing circles open while tying the vial holder bases into the lower structure.
 
 Use `integrated_carousel_tester_v0_8_3_vial_base_zero_reference.scad` to review the active v0.8-line model with the vial/cuvette base plane treated as the shared mechanical zero/joint plane: vial holders project upward and lower indexing rings project downward from that plane with their reference heights.
+
+Use `integrated_carousel_tester_v0_8_4_vial_base_floor.scad` to review the active v0.8-line model with a complete thin floor only at the vial/cuvette base joint plane, while lower indexing rings still project downward from that plane with different heights.
 
 Use `integrated_carousel_tester_v0_9_stepped_ring_center_fix.scad` to review the corrected architecture after v0.8 print observations: lower ring height differences are preserved by replacing the full low cap with local support pads/spokes, and the visible central boss emerges from the center/index ring height.
 
