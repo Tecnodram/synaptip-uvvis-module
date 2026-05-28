@@ -11,11 +11,14 @@ This directory preserves design evolution as explicit versions.
 - `uvvis_carousel_adapter_v0_5_seating_recess.scad`
 - `uvvis_carousel_adapter_v0_6_vial_clearance_test.scad`
 - `uvvis_carousel_adapter_v0_7_clearance_wall_label_fix.scad`
+- `uvvis_carousel_adapter_v0_7_1_single_vial_16_4.scad`
 - `uvvis_carousel_adapter_v0_8_export_ready.scad`
 
 ## Current print-test candidate
 
 Use `uvvis_carousel_adapter_v0_8_export_ready.scad` for STL export and the next clearance-test print.
+
+Use `uvvis_carousel_adapter_v0_7_1_single_vial_16_4.scad` for the exploratory single-vial functional variant derived directly from v0.7 with one 16.4 mm bore.
 
 Use `indexing_base.scad` for the standalone lower indexing-base V0 test print.
 
